@@ -9,7 +9,8 @@ namespace JustPlanes.Network.Server
             Console.WriteLine("Hello World!");
             ServerTCP.InitializeNetwork();
             Console.WriteLine("Server STARTED ~~~");
-            Console.ReadLine();
+            Console.CancelKeyPress += (object sender, ConsoleCancelEventArgs args1) => { Game.Stop(); args1.Cancel = true; };
+            Game.StartLoop();
         }
     }
 }
