@@ -6,6 +6,9 @@
   <ItemGroup>
     <Compile Include="..\Network\Server\**\*.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Network\Client\**\*.cs" />
+  </ItemGroup>
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
