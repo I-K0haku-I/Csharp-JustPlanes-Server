@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JustPlanes.Network.Server
+namespace JustPlanes.Core.Network.Server
 {
     class Program
     {
