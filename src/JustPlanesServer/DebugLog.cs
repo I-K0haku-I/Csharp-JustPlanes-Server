@@ -8,5 +8,10 @@ namespace JustPlanes
         {
             Console.WriteLine(msg);
         }
+
+        public static void Info(string msg)
+        {
+            Console.WriteLine(msg);
+        }
     }
 }
