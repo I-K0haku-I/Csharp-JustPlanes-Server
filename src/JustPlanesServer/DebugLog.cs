@@ -13,5 +13,15 @@ namespace JustPlanes
         {
             Console.WriteLine(msg);
         }
+
+        public static void LogConn(string msg)
+        {
+            // Console.WriteLine(msg);
+        }
+
+        public static void LogPackets(string msg)
+        {
+            // Console.WriteLine(msg);
+        }
     }
 }
