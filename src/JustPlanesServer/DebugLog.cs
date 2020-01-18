@@ -23,5 +23,10 @@ namespace JustPlanes
         {
             // Console.WriteLine(msg);
         }
+
+        public static void Severe(string msg)
+        {
+            Console.WriteLine($"!WARNING! {msg}");
+        }
     }
 }

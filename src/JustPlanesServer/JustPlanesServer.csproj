@@ -7,7 +7,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <PublishSingleFile>true</PublishSingleFile>
+    <!-- <PublishSingleFile>true</PublishSingleFile> -->
   </PropertyGroup>
   <!-- dotnet publish -c Release -r win10-x64-->
   <!-- dotnet publish -c Release -r debian.9-x64-->
