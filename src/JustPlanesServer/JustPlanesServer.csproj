@@ -1,15 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <Compile Include="..\Core\**\*.cs" />
-  </ItemGroup>
+    <ItemGroup>
+        <Compile Include="..\Core\**\*.cs"/>
+        <Reference Include="Box2DX.dll">
+            <HintPath>..\Core\Box2DX.dll</HintPath>
+        </Reference>
+    </ItemGroup>
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <!-- <PublishSingleFile>true</PublishSingleFile> -->
-  </PropertyGroup>
-  <!-- dotnet publish -c Release -r win10-x64-->
-  <!-- dotnet publish -c Release -r debian.9-x64-->
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <!-- <PublishSingleFile>true</PublishSingleFile> -->
+    </PropertyGroup>
+    <!-- dotnet publish -c Release -r win10-x64-->
+    <!-- dotnet publish -c Release -r debian.9-x64-->
 
 </Project>
